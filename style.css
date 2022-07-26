@@ -7,7 +7,7 @@ h1{
 }
 .border{
     border-left: 3px solid;
-    border-color: rgb(253, 24, 24);
+    border-color: rgb(231, 81, 12);
     border-image-slice: 1;
     
     padding-left: 2%;
@@ -31,4 +31,29 @@ margin-bottom: 100px;
    padding: 5px 10px;
    border-radius: 5px;
     
+}
+.text-middle{
+    text-align: center;
+}
+.second-section{
+    display: flex;
+    margin-bottom: 100px;  
+}
+.my-mission{
+    box-shadow: 10px 15px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: skyblue;
+padding-left: 2%;
+padding-right: 2%;
+width: 50%;
+border-radius: 5%;
+
+}
+.photo{
+    width: 50%;
+    
+}
+#mission{
+    background-color: pink;
 }
