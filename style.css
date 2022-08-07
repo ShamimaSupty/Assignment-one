@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin-left: 10%;
+   
 }
 h1{
     font-size: 40px;
@@ -16,6 +16,35 @@ h1{
 .person{
     display: flex;
 margin-bottom: 100px;
+margin-left: 10%;
+}
+.forth-sec{
+    display: flex;
+    margin-left: 8%;
+    margin-bottom: 100px;
+    background-image: url(images/shapes/shape-1.png) ;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 85% bottom;
+    background-position-y: 120%;
+     margin-bottom: 100px;
+}
+.third-sec{
+    display: flex;
+margin-bottom: 100px;
+    background-image: url(images/shapes/shape-1.png);
+background-repeat: no-repeat;
+background-position: 5%;
+background-position-y: 30%;
+background-size: 10%;
+
+
+}
+.third-img{
+    margin-left: 20%;
+}
+.second-sec{
+    margin-left: 5%;
 }
 .image img{
     width: 40%;
@@ -52,8 +81,29 @@ border-radius: 5%;
 }
 .photo{
     width: 50%;
-    
-}
+    }
+    .forth-photo {
+        margin-left: 30%;
+        width: 40%;
+    }
 #mission{
     background-color: pink;
+}
+.imo img{
+    width: 40%;
+    border-right: 30%;
+}
+.third-part{
+  
+   padding-right: 10%;
+}
+.footer{
+    text-align: center;
+    font-style: italic;
+}
+.footer-text{
+    text-align: center;
+}
+#footer{
+    background-color: orange;
 }
