@@ -1,3 +1,12 @@
+table td, th{
+border: 1px solid gray ;
+padding: 0 10px;
+}
+table{
+    border-collapse: collapse;
+}
+
+
 body{
     font-family: 'Poppins', sans-serif;
    
