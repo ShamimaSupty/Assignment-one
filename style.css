@@ -1,3 +1,5 @@
+
+
 /* bestfriend part */
 .photo-album{
     display: flex;
@@ -24,7 +26,7 @@ display: block;
     border-radius: 10px;
     
 }
-h3{
+.photo-album h3{
     background-color: palevioletred;
     color: white;
 }
@@ -36,6 +38,11 @@ h3{
   background-color: rgba(201, 159, 166, 0.5);
 }
 /* close */
+.icon-sec{
+    border: 2px dotted pink;
+    width: 50%;
+    margin-left: 8%;
+}
 
 li a{
     text-decoration: none;
