@@ -1,3 +1,59 @@
+/* bestfriend part */
+.photo-album{
+    display: flex;
+    flex-wrap: wrap ;
+}
+.photo-frame{
+    height: 430px;
+    width: 400px;
+    border: 1px solid lightcyan;
+    border-radius: 10px;
+    position: relative;
+    margin: 15px;
+   
+}
+.photo-frame:hover .photo-details{
+display: block;
+}
+.photo-details p{
+    color: white;
+    width: 200px;
+  }
+.photos img{
+    width: 80%;
+    border-radius: 10px;
+    
+}
+h3{
+    background-color: palevioletred;
+    color: white;
+}
+.photo-details{
+    display: none;
+  position: absolute; 
+  width:350px; 
+  top: 0;
+  background-color: rgba(201, 159, 166, 0.5);
+}
+/* close */
+
+li a{
+    text-decoration: none;
+    background-color: coral;
+    padding: 5px;
+    margin: 40px;
+}
+li:visited{
+    background-color: cornsilk;
+}
+li{
+    list-style: none;
+}
+.fa-brands{
+   font-size: 50px;
+   margin: 40px;
+    
+}
 table td, th{
 border: 1px solid gray ;
 padding: 0 10px;
@@ -6,7 +62,21 @@ table{
     border-collapse: collapse;
 }
 
-
+ul {
+    display: flex;
+   }
+li{
+    padding-right: 20px;
+}
+a:hover{
+    background-color: burlywood;
+    padding: 0 10px;
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
 body{
     font-family: 'Poppins', sans-serif;
    
@@ -51,14 +121,12 @@ background-size: 10%;
 }
 .third-img{
     margin-left: 20%;
+   
 }
 .second-sec{
     margin-left: 5%;
 }
-.image img{
-    width: 40%;
-    margin-left: 30%;
-}
+
 .orange{
     color: orange;
 }
@@ -81,7 +149,17 @@ background-size: 10%;
     box-shadow: 10px 15px 40px gray;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: skyblue;
+    background-color: powderblue;
+padding-left: 2%;
+padding-right: 2%;
+width: 50%;
+border-radius: 5%;
+}
+.hobby{
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(255, 187, 0) ;
 padding-left: 2%;
 padding-right: 2%;
 width: 50%;
@@ -95,8 +173,11 @@ border-radius: 5%;
         margin-left: 30%;
         width: 40%;
     }
-#mission{
-    background-color: pink;
+    #hsc{
+        background-color: pink;
+    }
+#gardening{
+    background-color: plum ;
 }
 .imo img{
     width: 40%;
@@ -105,6 +186,7 @@ border-radius: 5%;
 .third-part{
   
    padding-right: 10%;
+   padding-top: 70px;
 }
 .footer{
     text-align: center;
